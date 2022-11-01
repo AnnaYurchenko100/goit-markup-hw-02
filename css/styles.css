@@ -6,9 +6,9 @@ body {
 
 }
  :root {
-    --primary-text-color:#212121;
-    --second-text-color:#757575;
-    --accent-text-color:#2196F3;
+    --primary-text-color:rgba(33, 33, 33, 1);
+    --second-text-color:rgba(117, 117, 117, 1);
+    --accent-text-color:rgba(33, 150, 243, 1);
  }
  .logo:hover,
  .logo:focus
@@ -17,10 +17,32 @@ body {
  }
 .list {
     list-style: none;
+    
+}
+ a {
+    text-decoration: none;
+ }
+
+/* Logo */
+.span {
+    color: rgba(33, 150, 243, 1);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    font-family: 'Raleway';
+}
+.span-header {
+    color: rgba(0, 0, 0, 1);
+}
+.span-footer {
+    color: rgba(255, 255, 255, 1);
 }
 /* site-nav */
 .site-nav .link {
-    color: var(--primary-text-color);
+    color: rgba(33, 33, 33, 1);
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 .site-nav .link-current {
     color: var(--accent-text-color);
@@ -31,7 +53,9 @@ body {
 }
 .auth-nav .link {
     color: var(--second-text-color) ;
-    line-height: 1,7;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -43,11 +67,18 @@ body {
 /* Button */
 .button-cursor:point{
     color:var(--primary-text-color);
+    background-color: rgba(245, 244, 250, 1);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,6;   
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em
      
+}
+
+.border {
+    background-color: rgba(238, 238, 238, 1);
 }
 .button-cursor:hover,
 .button-cursore:focus {
@@ -60,19 +91,26 @@ color: var(--accent-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 /* p */
 .section-text {
     color: var(--second-text-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,9;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
 }
 /* futer */
 .adress {
-    color: #ffffff;
-    line-height: 1,7;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
-
+.futer {
+    background-color: #2F303A;
+}
 
 
