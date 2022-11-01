@@ -128,7 +128,7 @@ background-color:rgba(47, 48, 58, 1) ;
 }
 .studio-button {
     color: rgba(255, 255, 255, 1);
-    background-color: var(--accent-text-color);
+    background-color: #2196F3;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -173,4 +173,8 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.2;
 letter-spacing: 0.03em;
+}
+.studio-button:hover,
+.studio-button:focus {
+    color: #2196F3;
 }
