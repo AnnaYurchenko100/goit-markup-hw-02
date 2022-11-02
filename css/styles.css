@@ -1,5 +1,4 @@
 body {
-    background-color: #F5F5F5;
     color:var(--primary-text-color);
     font-family: Roboto,sans-serif;
     font-size: 14px;
@@ -9,7 +8,7 @@ body {
     --primary-text-color:rgba(33, 33, 33, 1);
     --second-text-color:rgba(117, 117, 117, 1);
     --accent-text-color:rgba(33, 150, 243, 1);
-    --link-text-color: #2196F3
+    --link-text-color: rgba(255, 255, 255, 0.6);
  }
  .logo:hover,
  .logo:focus
@@ -25,12 +24,15 @@ body {
  }
 
 /* Logo */
+
 .span {
     color: var(--accent-text-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     font-family: 'Raleway';
+   
+   
 }
 .span-header {
     color: var(--primary-text-color);
@@ -54,9 +56,12 @@ body {
 }
 .auth-nav .link {
     color: var(--second-text-color) ;
-    font-weight: 500;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -66,9 +71,9 @@ body {
 /* Section */
 
 /* Button */
-.button-cursor:point{
+.button-cursor:point {
     color:var(--primary-text-color);
-    background-color: rgba(245, 244, 250, 1);
+    background-color: #F5F4FA;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -83,20 +88,26 @@ body {
 }
 .button-cursor:hover,
 .button-cursore:focus {
-color: var(--accent-text-color);
+color:#F5F5F5;
 }
+
+
 /* h3 */
 
 .section-title {
     color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 /* p */
-.section-text {
+.sections-text {
     color: var(--second-text-color);
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
@@ -136,6 +147,13 @@ background-color:rgba(47, 48, 58, 1) ;
     text-align: center;
     letter-spacing: 0.06em;
 }
+
+.studio-button:hover,
+.studio-button:focus {
+    color: #F5F4FA;
+}
+
+
 .section-studio .title {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -158,7 +176,7 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 .border-team {
-    background-color: rgba(245, 244, 250, 1);
+    background-color: #F5F4FA;
 }
 .border-team .title {
 color: var(--primary-text-color);
@@ -168,13 +186,9 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 }
 .border-team .text {
-color: var(--primary-text-color);
+color: var(--second-text-color);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.2;
 letter-spacing: 0.03em;
-}
-.studio-button:hover,
-.studio-button:focus {
-    color: #2196F3;
 }
